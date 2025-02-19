@@ -8,7 +8,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - sudo rsync -av index.html /var/www/html/
+      - sudo rsync -av index.html /var/www/html
   post_build:
     commands:
       - echo Configuring NGINX
